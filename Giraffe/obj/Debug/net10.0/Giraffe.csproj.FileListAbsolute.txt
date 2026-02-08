@@ -1,0 +1,15 @@
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/bin/Debug/net10.0/Giraffe
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/bin/Debug/net10.0/Giraffe.deps.json
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/bin/Debug/net10.0/Giraffe.runtimeconfig.json
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/bin/Debug/net10.0/Giraffe.dll
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/bin/Debug/net10.0/Giraffe.pdb
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.GeneratedMSBuildEditorConfig.editorconfig
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.AssemblyInfoInputs.cache
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.AssemblyInfo.cs
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.csproj.CoreCompileInputs.cache
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.sourcelink.json
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.dll
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/refint/Giraffe.dll
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.pdb
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/Giraffe.genruntimeconfig.cache
+/home/abdulhakeem/Dev/Github/freecodecamp-csharp-2018/Giraffe/obj/Debug/net10.0/ref/Giraffe.dll
