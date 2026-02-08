@@ -40,6 +40,14 @@ namespace Giraffe
             bool isMale = true;
             bool isFemale = false;
 
+            // STRINGS
+            Console.WriteLine("This is a string of text");
+            Console.WriteLine("The second half of this text string\n is on a second line.");
+            Console.WriteLine("This qutation mark is escaped (\")");
+            string phrase2 = "Giraffe Academy";
+            Console.WriteLine(phrase2);
+            string concat = "I prefer formatted strings " + "instead of concatenation.";
+            Console.WriteLine($"phrase has {phrase2.Length} characters.");
 
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
