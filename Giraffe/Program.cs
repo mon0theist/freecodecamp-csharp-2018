@@ -25,8 +25,8 @@ namespace Giraffe
             Console.WriteLine($"But didn't like being {characterAge}");
             
             // DATA TYPES
-            string phrase = "Giraffe Academy";
-            char grade = "A"; // can only contain a single char
+            string phrase = "Giraffe Academy"; // DOUBLE QUOTES
+            char grade = 'A'; // SINGLE QUOTES, can only contain a single char
             // char badgrade = "FFF"; // what happens if I do more than a single char? Maybe it will fail to compile and run?
             // yep: "The build failed. Fix the build errors and run again."
             int count = 1;
@@ -46,9 +46,13 @@ namespace Giraffe
             Console.WriteLine("This qutation mark is escaped (\")");
             string phrase2 = "Giraffe Academy";
             Console.WriteLine(phrase2);
+            Console.WriteLine(phrase2.Length);
+            Console.WriteLine(phrase2.ToUpper());
+            Console.WriteLine(phrase2.ToLower());
+            Console.WriteLine(phrase2.Contains("Academy")); // returns bool
+            Console.WriteLine(phrase2.IndexOf("Academy"));
+            Console.WriteLine(phrase2.Substring(8,3)); // starting index, chars to grab
             string concat = "I prefer formatted strings " + "instead of concatenation.";
-            Console.WriteLine($"phrase has {phrase2.Length} characters.");
-
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
