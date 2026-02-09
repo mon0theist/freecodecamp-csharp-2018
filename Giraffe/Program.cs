@@ -93,8 +93,20 @@ namespace Giraffe
             // must use same data type. ints cant be added to floats, must convert both to doubles
             // Convert.ToDouble(Console.ReadLine());
 
-            
+            // MAD LIBS
+            Console.Write("Enter a color: ")
+            string color = Console.ReadLine();
+            Console.Write("Enter a plural noun: ")
+            string pluralNoun = Console.ReadLine();
+            Console.Write("Enter a celebrity: ")
+            string celebrity = Console.ReadLine();
 
+            Console.WriteLine($"Roses are {color}");
+            Console.WriteLine($"{pluralNoun} are blue");
+            Console.WriteLine($"I Love {celebrity}");
+
+            // ARRAYS
+            
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
