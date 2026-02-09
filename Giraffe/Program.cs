@@ -81,6 +81,20 @@ namespace Giraffe
             string age = Console.ReadLine();
             Console.WriteLine($"Hello {name} who is age {age}"); // format string
             
+            // CALCULATOR
+            int num = Convert.ToInt32("45"); // Convert string to int
+            Console.WriteLine(num + 6);
+
+            Console.Write("Enter a number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: ")
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(num1 + num2);
+            // must use same data type. ints cant be added to floats, must convert both to doubles
+            // Convert.ToDouble(Console.ReadLine());
+
+            
+
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
