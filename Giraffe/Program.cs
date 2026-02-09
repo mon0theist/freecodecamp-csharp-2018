@@ -93,7 +93,7 @@ namespace Giraffe
             // must use same data type. ints cant be added to floats, must convert both to doubles
             // Convert.ToDouble(Console.ReadLine());
 
-            // MAD LIBS
+            // MADLIBS
             Console.Write("Enter a color: ")
             string color = Console.ReadLine();
             Console.Write("Enter a plural noun: ")
@@ -106,6 +106,15 @@ namespace Giraffe
             Console.WriteLine($"I Love {celebrity}");
 
             // ARRAYS
+            int[] numbers = {4, 8, 15, 16, 23, 42};
+            Console.WriteLine(luckynumbers[1]);
+            luckynumbers[1] = 900; // change value in array
+            string[] friends = new string[10]; // empty array, specify number of elements to hold
+            friends[0] = "Jim";
+            friends[1] = "Pam";
+            friends[2] = "Dwight";
+
+            
             
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
