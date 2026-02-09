@@ -75,8 +75,12 @@ namespace Giraffe
             Console.WriteLine(Math.Round(4.325)); // standard rounding rules 
 
             // USER INPUT
+            Console.Write("Enter your name: "); // as opposed to WriteLine (no newline)
+            string name = Console.ReadLine(); // waiting for user input
+            Console.Write("Enter your age: "); // no newline
+            string age = Console.ReadLine();
+            Console.WriteLine($"Hello {name} who is age {age}"); // format string
             
-
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
