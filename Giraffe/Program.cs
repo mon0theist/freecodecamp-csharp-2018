@@ -82,23 +82,23 @@ namespace Giraffe
             Console.WriteLine($"Hello {name} who is age {age}"); // format string
             
             // CALCULATOR
-            int num = Convert.ToInt32("45"); // Convert string to int
-            Console.WriteLine(num + 6);
+            int numb = Convert.ToInt32("45"); // Convert string to int
+            Console.WriteLine(numb + 6);
 
             Console.Write("Enter a number: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter another number: ")
+            Console.Write("Enter another number: ");
             int num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(num1 + num2);
             // must use same data type. ints cant be added to floats, must convert both to doubles
             // Convert.ToDouble(Console.ReadLine());
 
             // MADLIBS
-            Console.Write("Enter a color: ")
+            Console.Write("Enter a color: ");
             string color = Console.ReadLine();
-            Console.Write("Enter a plural noun: ")
+            Console.Write("Enter a plural noun: ");
             string pluralNoun = Console.ReadLine();
-            Console.Write("Enter a celebrity: ")
+            Console.Write("Enter a celebrity: ");
             string celebrity = Console.ReadLine();
 
             Console.WriteLine($"Roses are {color}");
@@ -107,17 +107,25 @@ namespace Giraffe
 
             // ARRAYS
             int[] numbers = {4, 8, 15, 16, 23, 42};
-            Console.WriteLine(luckynumbers[1]);
-            luckynumbers[1] = 900; // change value in array
+            Console.WriteLine(numbers[1]);
+            numbers[1] = 900; // change value in array
             string[] friends = new string[10]; // empty array, specify number of elements to hold
             friends[0] = "Jim";
             friends[1] = "Pam";
             friends[2] = "Dwight";
 
-            
+            // METHODS (see line 123)
+            SayHi("Cornelius", 99); // see SayHi method defined below. basically the same as custom functions?
             
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
+        // Creating Method, between "internal class Program" and "static void Main"
+        // [static] [return type] [Method Name]
+        static void SayHi(string name, int age) 
+        {
+            Console.WriteLine($"Hello {name}, age: {age} (SayHi method)");
+        }
+
     }
 }
