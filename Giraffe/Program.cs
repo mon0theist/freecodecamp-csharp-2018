@@ -24,7 +24,7 @@ namespace Giraffe
             Console.WriteLine($"He really liked the name {characterName}");
             Console.WriteLine($"But didn't like being {characterAge}");
             
-            // DATA TYPES
+            // BASIC DATA TYPES
             string phrase = "Giraffe Academy"; // DOUBLE QUOTES
             char grade = 'A'; // SINGLE QUOTES, can only contain a single char
             // char badgrade = "FFF"; // what happens if I do more than a single char? Maybe it will fail to compile and run?
@@ -50,9 +50,33 @@ namespace Giraffe
             Console.WriteLine(phrase2.ToUpper());
             Console.WriteLine(phrase2.ToLower());
             Console.WriteLine(phrase2.Contains("Academy")); // returns bool
-            Console.WriteLine(phrase2.IndexOf("Academy"));
+            Console.WriteLine(phrase2.IndexOf("Academy")); // first result/match, -1 means not in string 
             Console.WriteLine(phrase2.Substring(8,3)); // starting index, chars to grab
             string concat = "I prefer formatted strings " + "instead of concatenation.";
+
+            // NUMBERS
+            Console.WriteLine(100);
+            Console.WriteLine(-100);
+            Console.WriteLine(100.001);
+            Console.WriteLine(1 + 1);
+            Console.WriteLine(1 - 1);
+            Console.WriteLine(1 * 1);
+            Console.WriteLine(1 / 1);
+            Console.WriteLine(1 % 1);
+            Console.WriteLine(1 + 1 * 3); // PEMDAS
+            Console.WriteLine( 5.1 + 8.1 ); // decimal answer
+            int num = 1;
+            num++;
+            Console.WriteLine(Math.Abs(-100)); // absolute value
+            Console.WriteLine(Math.Pow(2,3)); // exponents
+            Console.WriteLine(Math.Sqrt(144)); // sq. rt.
+            Console.WriteLine(Math.Max(4, 90));
+            Console.WriteLine(Math.Min(4, 90));
+            Console.WriteLine(Math.Round(4.325)); // standard rounding rules 
+
+            // USER INPUT
+            
+
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
