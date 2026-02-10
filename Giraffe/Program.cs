@@ -170,6 +170,10 @@ namespace Giraffe
                 Console.WriteLine("ERROR: Invalid Operator");
             }
 
+
+            // SWITCH STATEMENTS 
+            DayNum(2); // Tuesday
+
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
         // Creating Method, between "internal class Program" and "static void Main"
@@ -201,6 +205,36 @@ namespace Giraffe
                 Console.WriteLine("Numbers are equal");
                 return num1;
             }
+        }
+        // SWITCH STATEMENTS
+        static string GetDay(int dayNum) {
+            string dayName;
+            
+            switch (dayNum) {
+                case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+            }
+
+            return dayName;
         }
 
     }
