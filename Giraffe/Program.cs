@@ -117,14 +117,25 @@ namespace Giraffe
             // METHODS (see line 123)
             SayHi("Cornelius", 99); // see SayHi method defined below. basically the same as custom functions?
             
+            // RETURN STATEMENT (see line 133)
+            cubeNum(3);
+            int cubedNumber = cubeNum(5);
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
         // Creating Method, between "internal class Program" and "static void Main"
+        // will learn "static" and the rest of this structure later
         // [static] [return type] [Method Name]
         static void SayHi(string name, int age) 
         {
             Console.WriteLine($"Hello {name}, age: {age} (SayHi method)");
+        }
+
+        // Creating Method for RETURN STATEMENTS section
+        // [static] [return type] [Method Name]
+        static int cubeNum(int number) {
+            int result = (number * number * number);
+            return result;
         }
 
     }
