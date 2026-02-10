@@ -141,6 +141,34 @@ namespace Giraffe
             // C# has standard comparators 
             Console.WriteLine(GetMax(2, 10));
 
+            // BETTER CALCULATOR
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter a number: ")
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+") {
+
+            }
+            else if (op == "-") {
+
+            }
+            else if (op == "x" || op == "*") {
+
+            }
+            else if (op == "/"){
+
+            }
+            else if (op == "%"){
+
+            }
+            else {
+                Console.WriteLine("ERROR: Invalid Operator");
+            }
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
