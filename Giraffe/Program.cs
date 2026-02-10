@@ -121,6 +121,27 @@ namespace Giraffe
             cubeNum(3);
             int cubedNumber = cubeNum(5);
 
+            // IF STATEMENTS
+            // Logical AND: &&
+            // Logical OR: ||
+            bool isDude = false;
+            bool isTall = true;
+            if (isDude && isTall) {
+                Console.WriteLine("You are a tall male.");
+            }
+            else if (!isDude && !isTall) {
+                Console.WriteLine("You a short-ass lil bitch.");
+            }
+            else {
+                Console.WriteLine("Womp womp");
+            }
+
+            // IF STATEMENTS (CONTD.)
+            // See Max method below
+            // C# has standard comparators 
+            Console.WriteLine(GetMax(2, 10));
+
+
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
         // Creating Method, between "internal class Program" and "static void Main"
@@ -136,6 +157,22 @@ namespace Giraffe
         static int cubeNum(int number) {
             int result = (number * number * number);
             return result;
+        }
+
+        static int GetMax(int num1, int num2) {
+            int result;
+            if (num1 > num2) {
+                result = num1;
+                return result;
+            }
+            else if (num2 > num1){
+                result = num2;
+                return result;
+            }
+            else {
+                Console.WriteLine("Numbers are equal");
+                return num1;
+            }
         }
 
     }
