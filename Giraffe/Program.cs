@@ -192,6 +192,28 @@ namespace Giraffe
             // WHILE: Checks the condition before running the loop body, may run zero times.
             // DO WHILE: Runs the loop body first, then checks the condition, Always runs at least once.
 
+            // GUESSING GAME
+            string secretWord = "giraffe";
+            string guess = "";
+            int guessCount = 0;
+            int guessCountLimit = 3;
+            bool outOfGuesses = false;
+
+            while(guess != secretWord && !outOfGuesses) {
+                if (guessCount < guessCountLimit){
+                    Console.Write("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else {
+                    outOfGuesses = true; // aka "Boolean flag"
+                }
+            }
+            if (outOfGuesses){
+                Console.Write("You lose!");
+            } else {
+                Console.Write("You win!");
+            }
             
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
