@@ -143,13 +143,13 @@ namespace Giraffe
 
             // BETTER CALCULATOR
             Console.Write("Enter a number: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
+            double numb1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter Operator: ");
             string op = Console.ReadLine();
 
-            Console.Write("Enter a number: ")
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter a number: ");
+            double numb2 = Convert.ToDouble(Console.ReadLine());
 
             if (op == "+") {
 
@@ -170,9 +170,29 @@ namespace Giraffe
                 Console.WriteLine("ERROR: Invalid Operator");
             }
 
-
             // SWITCH STATEMENTS 
-            DayNum(2); // Tuesday
+            GetDay(2); // Tuesday
+            // see custom methods below
+
+
+            // WHILE LOOPS
+            int countt = 1;
+            while (countt < 5) {
+                Console.WriteLine(countt);
+                countt++;
+            }
+
+            // DO WHILE
+            int counter = 6;
+            do{
+                Console.WriteLine(counter);
+                counter++;
+            } while (counter <= 5);
+
+            // WHILE: Checks the condition before running the loop body, may run zero times.
+            // DO WHILE: Runs the loop body first, then checks the condition, Always runs at least once.
+
+            
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
@@ -231,6 +251,9 @@ namespace Giraffe
                     break;
                 case 6:
                     dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "Invalid day number";
                     break;
             }
 
