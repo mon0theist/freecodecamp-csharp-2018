@@ -214,6 +214,13 @@ namespace Giraffe
             } else {
                 Console.Write("You win!");
             }
+
+
+            // FOR LOOPS
+            // init; condition; iteration
+            for (int ii = 1; ii <= 5; ii++) {
+                Console.WriteLine(ii);
+            }
             
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
