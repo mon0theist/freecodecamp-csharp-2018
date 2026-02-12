@@ -221,6 +221,14 @@ namespace Giraffe
             for (int ii = 1; ii <= 5; ii++) {
                 Console.WriteLine(ii);
             }
+
+            int[] theNumbersMason = {4, 8, 15, 16, 23, 42};
+            for (int i = 0; i < theNumbersMason.Length; i++){
+                Console.WriteLine($"The numbers, Mason!...{theNumbersMason[i]}");
+            }
+
+            // EXPONENT METHOD 
+
             
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
@@ -288,6 +296,13 @@ namespace Giraffe
 
             return dayName;
         }
+        static int GetPow(int baseNum, int powNum){
+            int result = 1;
 
-    }
+            for (int i = 0; i < powNum; i++){
+                result = result * baseNum;
+            }
+
+            return result;
+        }
 }
