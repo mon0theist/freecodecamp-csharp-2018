@@ -228,8 +228,18 @@ namespace Giraffe
             }
 
             // EXPONENT METHOD 
+            // See custom methods below
+            GetPow(3, 4);
 
-            
+            // 2D Arrays
+            // Array of arrays
+            int[,] numberGrid = {
+                {1, 2},
+                {3, 4},
+                {5, 6}
+            };
+            Console.WriteLine(numberGrid[0,1])
+
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
