@@ -267,6 +267,8 @@ namespace Giraffe
                         
             // CLASSES AND OBJECTS
             // See seperate Book.cs file
+
+            // WITHOUT CONSTRUCTOR FUNCTION
             Book book1 = new Book();
             book1.title = "Lord of the Rings";
             book1.author = "J.R.R. Tolkein";
@@ -284,6 +286,12 @@ namespace Giraffe
             Console.WriteLine(book2.title);
             Console.WriteLine(book2.author);
             Console.WriteLine(book2.pages);
+
+            // CONSTRUCTORS
+            // Constructor method is added inside a Class, and then the method runs
+            // whenever a new instance of the Class is created
+            // see Book.cs
+            Book book3 = new Book("Cunning Constructors", "Cody McCompile", 512);
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
