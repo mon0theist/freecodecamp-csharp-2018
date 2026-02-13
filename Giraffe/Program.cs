@@ -238,7 +238,33 @@ namespace Giraffe
                 {3, 4},
                 {5, 6}
             };
-            Console.WriteLine(numberGrid[0,1])
+            Console.WriteLine(numberGrid[0,1]);
+
+            // COMMENTS
+            // pretty sure I know how to comment ;) 
+
+            // EXCEPTION HANDLING
+            // Divide by 0 to trigger error
+            try {
+                Console.Write("Enter a number: ");
+                int numeral1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int numeral2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(numeral1 / numeral2);
+            }
+            // catch (Exception e) {
+            //     Console.WriteLine($"ERROR: {e.Message}")
+            // }
+            catch (DivideByZeroException ez){
+                Console.WriteLine($"ERROR: {ez.Message}");
+            }
+            catch (FormatException ef) {
+                Console.WriteLine($"ERROR: {ef.Message}");
+            }
+            finally {
+                Console.WriteLine("The finally block always runs after all the try/catch is processed.");
+            }
+                        
 
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
@@ -315,4 +341,4 @@ namespace Giraffe
 
             return result;
         }
-}
+}}
