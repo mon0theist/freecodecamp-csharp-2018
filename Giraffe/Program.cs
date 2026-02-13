@@ -265,7 +265,25 @@ namespace Giraffe
                 Console.WriteLine("The finally block always runs after all the try/catch is processed.");
             }
                         
+            // CLASSES AND OBJECTS
+            // See seperate Book.cs file
+            Book book1 = new Book();
+            book1.title = "Lord of the Rings";
+            book1.author = "J.R.R. Tolkein";
+            book1.pages = 1213;
 
+            Book book2 = new Book();
+            book2.title = "The Hobbit";
+            book2.author = "J.R.R. Tolkein";
+            book2.pages = 775;
+
+            Console.WriteLine(book1.title);
+            Console.WriteLine(book1.author);
+            Console.WriteLine(book1.pages);
+
+            Console.WriteLine(book2.title);
+            Console.WriteLine(book2.author);
+            Console.WriteLine(book2.pages);
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
