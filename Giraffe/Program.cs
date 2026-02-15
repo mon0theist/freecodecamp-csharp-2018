@@ -302,7 +302,12 @@ namespace Giraffe
             Console.WriteLine(student2.HasHonors()); // should return true
             // see "HasHonors()" inside Student.cs
 
-
+            // GETTERS AND SETTERS
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            // need to restrict/validate "rating" to only be actual ratings
+            // G, PG, PG-13, R, NR
+            
 
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
