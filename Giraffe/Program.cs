@@ -322,7 +322,15 @@ namespace Giraffe
 
             // STATIC METHODS AND CLASSES
             // as opposed to static CLASS ATTRIBUTES above
-            
+            // method belongs to Class (as opposed to object instance)
+            // you don't have to create an instance/object of the Class in order to use
+            // the static class method
+            // ex: Math.sqrt()
+            // Don't have to create an object instance of the Math class in order to use the Math.sqrt static class method
+            UsefulTools.SayHi("Ryen"); // didn't have to create instance of UsefulTools class
+            // Math is actually a Static Class and you CAN'T create an instance of it
+
+
 
 
 
