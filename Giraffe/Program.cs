@@ -293,6 +293,18 @@ namespace Giraffe
             // see Book.cs
             Book book3 = new Book("Cunning Constructors", "Cody McCompile", 512);
 
+            // OBJECT METHODS
+            // See Student.cs 
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors()); // should return false
+            Console.WriteLine(student2.HasHonors()); // should return true
+            // see "HasHonors()" inside Student.cs
+
+
+
+
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
         // Creating Method, between "internal class Program" and "static void Main"
