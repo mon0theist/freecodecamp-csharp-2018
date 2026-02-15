@@ -309,6 +309,22 @@ namespace Giraffe
             // G, PG, PG-13, R, NR
             
 
+            // STATIC CLASS ATTRIBUTES
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Song holiday = new Song("Kashmir", "Led Zeppelin", 150);
+            // static attributes = always the same across all instances of the class
+            // now that we have a static attribute, we can call it on the class itself
+            // as opposed to a specific instance
+            Console.WriteLine(Song.songCount);
+            // Song.title wouldn't work, because every Song object has a different title
+            // ie it's not a static attribute
+
+
+            // STATIC METHODS AND CLASSES
+            // as opposed to static CLASS ATTRIBUTES above
+            
+
+
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
         }
