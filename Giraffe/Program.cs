@@ -331,7 +331,14 @@ namespace Giraffe
             // Math is actually a Static Class and you CAN'T create an instance of it
 
 
+            // INHERITANCE 
+            Chef chef = new Chef();
+            chef.MakeChicken();
 
+            ItalianChef italiancchef = new ItalianChef();
+            italianchef.MakeChicken();
+
+            // subclass inherits from superclass
 
 
             Console.ReadLine(); // keeps the console open instead of immediately terminating
